@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+dist
+yarn-error.log
+static/assets
+.idea
+.env
+.icloud
+site
+package-lock.json
