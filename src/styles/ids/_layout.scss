@@ -1,9 +1,13 @@
 // Если есть доступ к body, надо добавить туда этот класс
 // Компоненты
 
+.top__space {
+  height: 5vh;
+}
+
 .ids__wrapper {
   position: relative;
-  width: 76%;
+  width: 40%;
   margin: 0 auto;
 
   @media screen and #{$ids__mobile} {

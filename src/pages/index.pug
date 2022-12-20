@@ -1,21 +1,36 @@
 extends /layouts/main.pug
 
 block meta
-  +meta(title="Layer 0", description="Шаблон сайта проектов Интуиции", og-image="/images/IMG_0202.jpg")
+  +meta(title="Кнопко", description="У кнопки тоже есть чувства", og-image="/images/IMG_0202.jpg")
 
 block content
-
+  .top__space
   .ids__wrapper
-    .ids__text
+    .intro-text#output
+    .ids__stack.S
+    .button#switch
+      .wrapper 
+        span
+          .circle.circle-12
+          .circle.circle-11
+          .circle.circle-10 
+          .circle.circle-9
+          .circle.circle-8
+          .circle.circle-7
+          .circle.circle-6 
+          .circle.circle-5 
+          .circle.circle-4 
+          .circle.circle-3 
+          .circle.circle-2 
+          .circle.circle-1
+    
+    .ids__stack.M
+    .explanation
+      p Каждый день мы жмем много кнопок, но не все они приносят пользу. Какие-то разочаровывают, какие-то приводят нас в бешенство.
+      p Мы хотим это исправить. Серьезно. Вы когда-нибудь задумывались о чувстве кнопок. Вот тотоже 
+      p Нажав на эту кнопку вы поможите друугим кнопкам почувствовать себя нужными и полезными. А там глядишь и в мире всё наладиться.
       
-      
-      section
-        .ids__stack.M
 
-        h2
-          a(href='/page-1') Пуск
-
-        p Вот тут у нас будет первая страница
         
 
 

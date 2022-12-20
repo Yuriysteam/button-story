@@ -1,4 +1,5 @@
-import $ from 'jquery';
+import $ from "jquery";
 
-import '../styles/main.scss';
-import './awakeness';
+import "../styles/main.scss";
+import "./switcher";
+import "./awakeness";
